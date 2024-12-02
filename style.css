@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    background-color: black; /* Cor de fundo preta */
+    color: white; /* Cor do texto branca */
+  }
+  
+  input {
+    padding: 5px 10px; /* Diminuir o tamanho do botão de input */
+    font-size: 14px; /* Tamanho da fonte do input menor */
+    margin: 10px;
+    border: 1px solid white; /* Borda branca para o campo de input */
+    background-color: transparent; /* Fundo transparente no input */
+    color: white; /* Cor do texto no input */
+  }
+  
+  button {
+    padding: 5px 10px; /* Botões menores */
+    font-size: 14px; /* Tamanho da fonte menor */
+    margin: 10px;
+    background-color: #444; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: 1px solid white; /* Borda branca no botão */
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #666; /* Mudança de cor ao passar o mouse sobre o botão */
+  }
+  
+  #feedback {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
